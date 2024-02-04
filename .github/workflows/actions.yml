@@ -23,6 +23,9 @@ jobs:
       - name: what is this place?
         run: id -a
 
+      - name: mother may I?
+        run: sudo whoami
+
       # Runs a set of commands using the runners shell
 #      - name: multi-line script
 #        run: |
